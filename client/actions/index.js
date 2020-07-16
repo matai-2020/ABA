@@ -1,8 +1,9 @@
-export const SEND_INCOME = 'SEND_INCOME'
+let nextWordId = 0
 
-export function sendIncomeToStore (income) {
+export const addWord = (word) => {
   return {
-    type: SEND_INCOME,
-    income
+    type: 'ADD_WORD',
+    id: nextWordId++,
+    word
   }
 }
