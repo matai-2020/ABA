@@ -49,7 +49,7 @@
     "d3-scale-chromatic": "^1.5.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "knex": "^0.21.2",
+    "knex": "^2.4.0",
     "react-bootstrap": "^1.2.2",
     "react-bootstrap-validation": "^0.1.11",
     "react-form-with-constraints": "^0.15.0",
